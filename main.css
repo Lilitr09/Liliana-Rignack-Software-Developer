@@ -1,0 +1,79 @@
+/* Fonts */
+
+
+/* External CSS */
+/* From Uiverse.io by kennyotsu-monochromia */ 
+.container-blocks-bg {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    --color: #E1E1E1;
+    background-color: #F3F3F3;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+    linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+}
+/**
+ * cssanimation.css
+ * https://www.cssanimatio.io
+ * Created and maintained by: Pavel
+ * Find me at: https://www.linkedin.com/in/yesiamrocks/
+ * Email: hello@cssanimation.io
+ * Github: https://github.com/yesiamrocks/cssanimation.io
+ * Title: A CSS Animation Library for Developers and Ninjas
+ * Copyright (c) 2017 Pavel
+ * License: cssanimation.io is licensed under the MIT license
+ **/
+
+h1 {
+    font-size: 4.3em;
+    letter-spacing: -4px;
+    font-weight: 700;
+    color: #7e2ea0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+/* .cssanimation span { display: inline-block } */
+
+.typing {
+    width: 435px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2.3s steps(12, end), cursor .5s steps(12, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+/* General Styles */
+
+
+
+
+/* Styles by Section */
+.hero-profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    margin:20px;
+    margin-top: 90px;
+    transform: translateY(0px);
+    box-shadow: 0 0 15px hsl(124, 37%, 64%);
+    background-color: hsl(123, 24%, 66%);
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
